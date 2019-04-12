@@ -160,6 +160,34 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  width: 100%;
+  height: 100px;
+  display: block;
+  background-color: #F1F1F1;
+}
+.navigation .nav-container {
+  height: 100%;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation .nav-container h1 {
+  font-size: 4.5rem;
+  margin-left: 180px;
+}
+.navigation .nav-container nav {
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.navigation .nav-container nav a {
+  text-decoration: none;
+  color: #454A59;
+  font-size: 1.5rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +197,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro {
+  font-size: 62.5%;
 }
 .home .intro h2 {
   padding: 15px;
