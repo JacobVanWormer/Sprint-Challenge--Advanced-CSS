@@ -174,7 +174,7 @@ p {
 }
 .navigation .nav-container h1 {
   font-size: 4.5rem;
-  margin-left: 180px;
+  margin-left: 220px;
 }
 .navigation .nav-container nav {
   width: 600px;
@@ -251,4 +251,7 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.intro img {
+  border-radius: 20px;
 }
