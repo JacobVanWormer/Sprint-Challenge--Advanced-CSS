@@ -177,16 +177,16 @@ p {
   margin-left: 220px;
 }
 .navigation .nav-container nav {
-  width: 600px;
+  width: 500px;
   display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
-  margin-left: 80px;
+  margin-left: 130px;
 }
 .navigation .nav-container nav a {
   text-decoration: none;
   color: #454A59;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 footer {
   color: #22283B;
@@ -206,6 +206,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  border-radius: 20px;
 }
 .home .space-images {
   display: flex;
@@ -243,6 +246,20 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background-color: #22283A;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  font-size: 2.5rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -251,7 +268,4 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
-}
-.intro img {
-  border-radius: 20px;
 }
