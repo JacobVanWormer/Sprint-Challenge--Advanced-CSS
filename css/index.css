@@ -174,7 +174,7 @@ p {
 }
 .navigation .nav-container h1 {
   font-size: 4.5rem;
-  margin-left: 220px;
+  margin-left: 210px;
 }
 .navigation .nav-container nav {
   width: 500px;
@@ -259,6 +259,11 @@ footer {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: #22283A;
+  border: 1px solid #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
